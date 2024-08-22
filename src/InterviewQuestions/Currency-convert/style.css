@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.selector {
+  padding: 7px;
+  margin: 5px;
+  font-size: 18px;
+}
+.result {
+  font-size: 42px;
+}
+/* .input-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+} */

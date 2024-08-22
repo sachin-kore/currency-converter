@@ -1,0 +1,39 @@
+.container{
+    width: max-content;
+    height: max-content;
+    margin: 10px auto;
+    padding: 20px;
+}
+.faq-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.faq-item{
+    border: 1px solid black;
+    padding: 15px 40px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+.question{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px; 
+    cursor: pointer;
+}
+.question-span{
+    font-size: 24px;
+    font-weight: bold;
+}
+.ans{
+   color: gray;
+   margin-left: 30px;
+ 
+}
+.arrow{
+    transform: rotate(90deg);
+  
+    transition-duration: 400ms;
+}
